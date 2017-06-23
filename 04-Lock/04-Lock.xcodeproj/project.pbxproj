@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A8675301EFBB44A006E2742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86752F1EFBB44A006E2742 /* main.m */; };
+		7A8675331EFBB44A006E2742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8675321EFBB44A006E2742 /* AppDelegate.m */; };
+		7A8675361EFBB44A006E2742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8675351EFBB44A006E2742 /* ViewController.m */; };
+		7A8675391EFBB44A006E2742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8675371EFBB44A006E2742 /* Main.storyboard */; };
+		7A86753B1EFBB44A006E2742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A86753A1EFBB44A006E2742 /* Assets.xcassets */; };
+		7A86753E1EFBB44A006E2742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A86753C1EFBB44A006E2742 /* LaunchScreen.storyboard */; };
+		7A86755A1EFBB9F6006E2742 /* MKLockControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8675591EFBB9F6006E2742 /* MKLockControl.m */; };
+		88148608FE28FBA3931304AA /* libPods-04-Lock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CB9085834B25FF7CEDCDFC /* libPods-04-Lock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43CF34E48115F840F42D34C5 /* Pods-04-Lock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-04-Lock.release.xcconfig"; path = "Pods/Target Support Files/Pods-04-Lock/Pods-04-Lock.release.xcconfig"; sourceTree = "<group>"; };
+		7A86752B1EFBB44A006E2742 /* 04-Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A86752F1EFBB44A006E2742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A8675311EFBB44A006E2742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A8675321EFBB44A006E2742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A8675341EFBB44A006E2742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A8675351EFBB44A006E2742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A8675381EFBB44A006E2742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A86753A1EFBB44A006E2742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A86753D1EFBB44A006E2742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A86753F1EFBB44A006E2742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8675581EFBB9F6006E2742 /* MKLockControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLockControl.h; sourceTree = "<group>"; };
+		7A8675591EFBB9F6006E2742 /* MKLockControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLockControl.m; sourceTree = "<group>"; };
+		C6D2A4C4FB6E3C39FFB5B87A /* Pods-04-Lock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-04-Lock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-04-Lock/Pods-04-Lock.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CB9085834B25FF7CEDCDFC /* libPods-04-Lock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-04-Lock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A8675281EFBB44A006E2742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88148608FE28FBA3931304AA /* libPods-04-Lock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212371E1DDA22AAF1D2B77AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB9085834B25FF7CEDCDFC /* libPods-04-Lock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8675221EFBB44A006E2742 = {
+			isa = PBXGroup;
+			children = (
+				7A86752D1EFBB44A006E2742 /* 04-Lock */,
+				7A86752C1EFBB44A006E2742 /* Products */,
+				99858C0EC2B2E1919F5A6B73 /* Pods */,
+				212371E1DDA22AAF1D2B77AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A86752C1EFBB44A006E2742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A86752B1EFBB44A006E2742 /* 04-Lock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A86752D1EFBB44A006E2742 /* 04-Lock */ = {
+			isa = PBXGroup;
+			children = (
+				7A8675311EFBB44A006E2742 /* AppDelegate.h */,
+				7A8675321EFBB44A006E2742 /* AppDelegate.m */,
+				7A8675341EFBB44A006E2742 /* ViewController.h */,
+				7A8675351EFBB44A006E2742 /* ViewController.m */,
+				7A8675581EFBB9F6006E2742 /* MKLockControl.h */,
+				7A8675591EFBB9F6006E2742 /* MKLockControl.m */,
+				7A8675371EFBB44A006E2742 /* Main.storyboard */,
+				7A86753A1EFBB44A006E2742 /* Assets.xcassets */,
+				7A86753C1EFBB44A006E2742 /* LaunchScreen.storyboard */,
+				7A86753F1EFBB44A006E2742 /* Info.plist */,
+				7A86752E1EFBB44A006E2742 /* Supporting Files */,
+			);
+			path = "04-Lock";
+			sourceTree = "<group>";
+		};
+		7A86752E1EFBB44A006E2742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A86752F1EFBB44A006E2742 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99858C0EC2B2E1919F5A6B73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2A4C4FB6E3C39FFB5B87A /* Pods-04-Lock.debug.xcconfig */,
+				43CF34E48115F840F42D34C5 /* Pods-04-Lock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A86752A1EFBB44A006E2742 /* 04-Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8675421EFBB44A006E2742 /* Build configuration list for PBXNativeTarget "04-Lock" */;
+			buildPhases = (
+				D438378B43C835C2DCC2C398 /* [CP] Check Pods Manifest.lock */,
+				7A8675271EFBB44A006E2742 /* Sources */,
+				7A8675281EFBB44A006E2742 /* Frameworks */,
+				7A8675291EFBB44A006E2742 /* Resources */,
+				716C9F58DD52151BCAA21952 /* [CP] Embed Pods Frameworks */,
+				39FC63E7C0136C53BD3880AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-Lock";
+			productName = "04-Lock";
+			productReference = 7A86752B1EFBB44A006E2742 /* 04-Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A8675231EFBB44A006E2742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杭州部落公社科技有限公司";
+				TargetAttributes = {
+					7A86752A1EFBB44A006E2742 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 452XNHBVYZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A8675261EFBB44A006E2742 /* Build configuration list for PBXProject "04-Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A8675221EFBB44A006E2742;
+			productRefGroup = 7A86752C1EFBB44A006E2742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A86752A1EFBB44A006E2742 /* 04-Lock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A8675291EFBB44A006E2742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86753E1EFBB44A006E2742 /* LaunchScreen.storyboard in Resources */,
+				7A86753B1EFBB44A006E2742 /* Assets.xcassets in Resources */,
+				7A8675391EFBB44A006E2742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39FC63E7C0136C53BD3880AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-04-Lock/Pods-04-Lock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716C9F58DD52151BCAA21952 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-04-Lock/Pods-04-Lock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D438378B43C835C2DCC2C398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A8675271EFBB44A006E2742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86755A1EFBB9F6006E2742 /* MKLockControl.m in Sources */,
+				7A8675361EFBB44A006E2742 /* ViewController.m in Sources */,
+				7A8675331EFBB44A006E2742 /* AppDelegate.m in Sources */,
+				7A8675301EFBB44A006E2742 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A8675371EFBB44A006E2742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8675381EFBB44A006E2742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A86753C1EFBB44A006E2742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A86753D1EFBB44A006E2742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A8675401EFBB44A006E2742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A8675411EFBB44A006E2742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A8675431EFBB44A006E2742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D2A4C4FB6E3C39FFB5B87A /* Pods-04-Lock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 452XNHBVYZ;
+				INFOPLIST_FILE = "04-Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buluo-gs.-4-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A8675441EFBB44A006E2742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CF34E48115F840F42D34C5 /* Pods-04-Lock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 452XNHBVYZ;
+				INFOPLIST_FILE = "04-Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buluo-gs.-4-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A8675261EFBB44A006E2742 /* Build configuration list for PBXProject "04-Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8675401EFBB44A006E2742 /* Debug */,
+				7A8675411EFBB44A006E2742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8675421EFBB44A006E2742 /* Build configuration list for PBXNativeTarget "04-Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8675431EFBB44A006E2742 /* Debug */,
+				7A8675441EFBB44A006E2742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A8675231EFBB44A006E2742 /* Project object */;
+}
